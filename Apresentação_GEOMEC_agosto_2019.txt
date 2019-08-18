@@ -1,0 +1,93 @@
+Apresentação I
+
+SOLVING POROELASTICITY PROBLEMS USING A FINITE VOLUME TECHNIQUE
+
+- Breve apresentação do EbFVM
+		- Aspectos geométricos
+			- Malhas 3D
+			- Diferentes tipos de elementos
+			- Malhas radiais ao redor de poços
+			- Construção de volumes de controle
+			- Pontos de integração e vetor área de face
+		- Aspectos numéricos
+			- Funções de forma dos elementos
+			- Derivadas das funções de forma
+			- Semelhanças com FEM
+
+- Breve apresentação de alguns trabalhos já realizados pelo laboratório usando EbFVM
+		
+		- Modelo black-oil em malhas corner-point
+		- Modelo bifásico com EbFVM e malhas não-esturradas ( método de Newton e
+                  IMPES)
+		- Modelo de poço em malhas cilíndricas (Aavatsmark)
+		- Elasticidade linear 3D com EbFVM
+		- Termoelasticidade linear 3D com EbFVM
+- Bibliotecas
+
+		- EFVLib
+		- Gerador de malhas cilíndricas para poços
+
+
+Obs. Os itens acima devem estar incluídos em poucas transparências (umas 3 ou 4)
+
+
+- Modelo Poroelástico
+
+	- Discretização das equações do modelo de poroelasticidade acoplada
+		- Conservação da massa para modelo de fluxo monofásico
+		- Equações de equilíbrio
+
+	- Resultados de validação da metodologia
+		- Modelo de poço para escoamento SEM geomecânica
+		- Terzaghi
+		- Cryer
+		- Mandel	
+		
+
+- Escopo do projeto:
+		- Solução de problemas acoplados de poroelasticidade utilizando o EbFVM
+			- Modelo de fluxo monofásico e poroelasticidade
+				- Discretização das equações do modelo pelo EbFVM
+				- Modelo de poço de Aavatsmark para malhas cilíndricas
+				- Comparação de estratégias de acoplamento (FIM e Fixed-
+                                  Stress)
+				- Formulações para as regiões PAY e NONPAY
+				- Solução de Terzaghi, Cryer e Mandel
+				- Análise de perfomance dos métodos FIM e Fixed-Stress
+				- Solução dos problemas do benchmark #3 (Dean et al. 2002)
+
+			- Modelo de fluxo bifásico e poroelasticidade
+				- Discretização das equações pelo EbFVM
+				- Implementação do método de Newton
+				- Métodos FIM e Fixed-Stress
+				- Modelo de poço
+				- Solução do problema de Buckley-Leverett
+				- Solução do problema 4 do benchmark #3 (modelo trifásico)
+
+Obs. Apenas citar os tópicos acima
+
+- Tópicos em estudo
+
+	- Métodos de acoplamento
+		- FIM e Fixed-Stress (não acho que seja necessário descrever esses
+                  métodos, apenas mostrar as equações rapidamente)
+		- Resultados de análise de performance
+
+- Estabilidade
+		- Acoplamento P-D
+		- PIS para EbFVM
+		- PIS e arranjo desencontrado para malhas Cartesianas
+		- Resultados
+
+Obs. Também basta citar
+
+
+Apresentação II
+
+BENCHMARK #3 - Problem 3
+	
+	
+	- Resultados Dean et al. (2002)
+		- Problema 3: regiões pay e nonpay
+
+	
