@@ -15,7 +15,7 @@ SOLVING POROELASTICITY PROBLEMS USING A FINITE VOLUME TECHNIQUE
 			- Semelhanças com FEM
 
 - Breve apresentação de alguns trabalhos já realizados pelo laboratório usando EbFVM
-		
+
 		- Modelo black-oil em malhas corner-point
 		- Modelo bifásico com EbFVM e malhas não-esturradas ( método de Newton e
                   IMPES)
@@ -41,8 +41,8 @@ Obs. Os itens acima devem estar incluídos em poucas transparências (umas 3 ou 
 		- Modelo de poço para escoamento SEM geomecânica
 		- Terzaghi
 		- Cryer
-		- Mandel	
-		
+		- Mandel
+
 
 - Escopo do projeto:
 		- Solução de problemas acoplados de poroelasticidade utilizando o EbFVM
@@ -85,9 +85,7 @@ Obs. Também basta citar
 Apresentação II
 
 BENCHMARK #3 - Problem 3
-	
-	
+
+
 	- Resultados Dean et al. (2002)
 		- Problema 3: regiões pay e nonpay
-
-	
